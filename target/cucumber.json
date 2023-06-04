@@ -1,0 +1,437 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Create booking data",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 306000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I have data of customer booking",
+            "match": {
+              "location": "steps.DemoAPI.iHaveDataOfCustomerBooking()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5056000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I call API to create booking information",
+            "match": {
+              "location": "steps.DemoAPI.iCallAPIToCreateBookingInformation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the API should return status 200 and all fields display correctly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.DemoAPI.theAPIShouldReturnStatusAndAllFieldsDisplayCorrectly(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-04T16:05:23.332Z",
+        "line": 8,
+        "name": "Create booking",
+        "description": "",
+        "id": "demo-api;create-booking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have data of customer booking",
+            "match": {
+              "location": "steps.DemoAPI.iHaveDataOfCustomerBooking()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1257000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I call API to create booking information",
+            "match": {
+              "location": "steps.DemoAPI.iCallAPIToCreateBookingInformation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the API should return status 200 and all fields display correctly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.DemoAPI.theAPIShouldReturnStatusAndAllFieldsDisplayCorrectly(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          },
+          {
+            "name": "@Post"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Create booking data",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I have data of customer booking",
+            "match": {
+              "location": "steps.DemoAPI.iHaveDataOfCustomerBooking()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1234000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I call API to create booking information",
+            "match": {
+              "location": "steps.DemoAPI.iCallAPIToCreateBookingInformation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the API should return status 200 and all fields display correctly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.DemoAPI.theAPIShouldReturnStatusAndAllFieldsDisplayCorrectly(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-04T16:05:30.773Z",
+        "line": 14,
+        "name": "Get booking according to id",
+        "description": "",
+        "id": "demo-api;get-booking-according-to-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1267000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I call API to get customer booking information with id created above",
+            "match": {
+              "location": "steps.DemoAPI.iCallAPIToGetCustomerBookingInformationWithIdCreatedAbove()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the API should return status 200 and response display correctly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.DemoAPI.theAPIShouldReturnStatusAndResponseDisplayCorrectly(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          },
+          {
+            "name": "@Get"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Create booking data",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I have data of customer booking",
+            "match": {
+              "location": "steps.DemoAPI.iHaveDataOfCustomerBooking()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1242000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I call API to create booking information",
+            "match": {
+              "location": "steps.DemoAPI.iCallAPIToCreateBookingInformation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the API should return status 200 and all fields display correctly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.DemoAPI.theAPIShouldReturnStatusAndAllFieldsDisplayCorrectly(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-04T16:05:33.305Z",
+        "line": 19,
+        "name": "Updates a current booking",
+        "description": "",
+        "id": "demo-api;updates-a-current-booking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2526000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I call API to \"update\" customer booking information with id created above",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"update\"",
+                  "offset": 14
+                }
+              ],
+              "location": "steps.DemoAPI.iCallAPIToCustomerBookingInformationWithIdCreatedAbove(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the API should return status 200 and data is updated successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.DemoAPI.theAPIShouldReturnStatusAndDataIsUpdatedSuccessfully(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          },
+          {
+            "name": "@Put"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Create booking data",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I have data of customer booking",
+            "match": {
+              "location": "steps.DemoAPI.iHaveDataOfCustomerBooking()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1297000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I call API to create booking information",
+            "match": {
+              "location": "steps.DemoAPI.iCallAPIToCreateBookingInformation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the API should return status 200 and all fields display correctly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.DemoAPI.theAPIShouldReturnStatusAndAllFieldsDisplayCorrectly(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-04T16:05:37.104Z",
+        "line": 24,
+        "name": "Delete a current booking",
+        "description": "",
+        "id": "demo-api;delete-a-current-booking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2561000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I call API to \"delete\" customer booking information with id created above",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"delete\"",
+                  "offset": 14
+                }
+              ],
+              "location": "steps.DemoAPI.iCallAPIToCustomerBookingInformationWithIdCreatedAbove(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1262000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the API should return status 201 and data is deleted successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.DemoAPI.theAPIShouldReturnStatusAndDataIsDeletedSuccessfully(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@API"
+          },
+          {
+            "name": "@Delete"
+          }
+        ]
+      }
+    ],
+    "name": "Demo API",
+    "description": "",
+    "id": "demo-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/API.feature",
+    "tags": []
+  }
+]

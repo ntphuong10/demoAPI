@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Demo API","Create booking","SUCCESS","2023-06-04T23:05:23.889+07:00[Asia/Bangkok]","0.0","6.87"
+"Demo API","Get booking according to id","SUCCESS","2023-06-04T23:05:30.777+07:00[Asia/Bangkok]","0.0","2.52"
+"Demo API","Updates a current booking","SUCCESS","2023-06-04T23:05:33.31+07:00[Asia/Bangkok]","0.0","3.79"
+"Demo API","Delete a current booking","SUCCESS","2023-06-04T23:05:37.109+07:00[Asia/Bangkok]","0.0","5.15"
